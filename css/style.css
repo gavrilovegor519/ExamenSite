@@ -2,3 +2,87 @@
     margin: 0%;
     padding: 0%;
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.type1 {
+    font-size: 20pt;
+}
+
+.type2 {
+    font-size: 12pt;
+}
+
+.slider {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.slider img {
+    margin-right: 5%;
+}
+
+/* Centerize */
+.center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.logo, .links, .search {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-right: 30px;
+    flex-wrap: wrap;
+}
+
+.links a, .search a {
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+/* Block 2 */
+#block2 {
+    flex-direction: column;
+}
+
+.pros-circle {
+    background-color: rgb(52, 233, 24);
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    margin-top: 30px;
+}
+
+/* Block 3 */
+#block3 {
+    flex-direction: column;
+}
+
+#block3 h2, #block3 img, #block3 p {
+    margin-bottom: 30px;
+}
+
+/* Block 4 */
+#block4 {
+    flex-direction: column;
+}
